@@ -1,0 +1,15 @@
+const calculator = () => {
+    const op = prompt("Enter operation (+, -, *, /):");
+    const num1 = +prompt("First number:");
+    const num2 = +prompt("Second number:");
+    
+    const result = op === '+' ? num1 + num2 :
+                   op === '-' ? num1 - num2 :
+                   op === '*' ? num1 * num2 :
+                   op === '/' ? (num2 ? num1 / num2 : "Error: Division by zero!") :
+                   "Invalid!";
+
+    console.log(result);
+};
+
+calculator();

@@ -1,0 +1,9 @@
+const user = {
+    name: "MOHAN SANDEEP",
+    id: "2300090118",
+    branch: "CS & IT"
+};
+
+console.log(`Name: ${user.name},
+ID: ${user.id}, 
+Branch: ${user.branch}`);
